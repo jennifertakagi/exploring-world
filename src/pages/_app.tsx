@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>Exploring World</title>
         <link rel="shortcut icon" href="/img/logo.png" />
         <link rel="apple-touch-icon" href="/img/logo.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="An app to explore the world through travel!"
