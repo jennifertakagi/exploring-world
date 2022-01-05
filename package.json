@@ -6,13 +6,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings=0",
+    "lint:fix": "yarn lint --fix",
     "postinstall": "yarn lint",
     "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
+      "yarn lint:fix"
     ]
   },
   "dependencies": {
