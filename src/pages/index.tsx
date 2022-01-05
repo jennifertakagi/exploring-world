@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 export default function Home() {
-  const alo = 1;
+  const alo = 1211111211;
   return (
     <div>
       <Head>
