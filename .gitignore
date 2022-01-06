@@ -106,3 +106,5 @@ dist
 # sw stuff
 public/sw.js
 public/workbox-*.js
+
+.next
