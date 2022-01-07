@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import { Place } from 'shared/types/Place';
 
-const Map: React.FC<MapProps> = ({ places }) => {
+const Map = ({ places }: MapProps) => {
   return (
     <MapContainer
       center={[0, 0]}
