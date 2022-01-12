@@ -10,11 +10,11 @@
     "prepare": "husky install",
     "start": "next start",
     "test-unit": "jest",
-    "test-unit:watch": "yarn test-unit --watch"
+    "test-unit:watch": "yarn test-unit --watch",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "yarn lint:fix",
       "yarn test-unit --findRelatedTests --bail"
     ]
   },
@@ -32,6 +32,10 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.7",
+    "@graphql-codegen/add": "^3.1.1",
+    "@graphql-codegen/cli": "2.3.1",
+    "@graphql-codegen/typescript": "2.4.2",
+    "@graphql-codegen/typescript-operations": "2.2.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.4.0",
