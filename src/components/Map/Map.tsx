@@ -24,7 +24,7 @@ const Map = ({ places }: MapProps) => {
   );
 };
 
-type MapProps = {
+export type MapProps = {
   places?: Place[];
 };
 
